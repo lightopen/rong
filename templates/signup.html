@@ -1,4 +1,10 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}实名注册{% endblock %}
+
+
+{% block body %}
 {% import "bootstrap/wtf.html" as wtf %}
-<div style="width: 75%; margin: auto">
+<div style="width: 75%; margin: auto; padding-top:80px ">
 {{wtf.quick_form(form)}}
 </div>
+{% endblock %}
